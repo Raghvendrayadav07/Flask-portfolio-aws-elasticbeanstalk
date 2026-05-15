@@ -1,6 +1,6 @@
 🌐 Dynamic Portfolio — Flask + AWS Elastic Beanstalk
 A dynamic personal portfolio website built with Python Flask and deployed on AWS Elastic Beanstalk. Features a password-protected admin panel to add and manage projects without touching code.
-Live Demo: http://your-eb-url.elasticbeanstalk.com ← replace with your URL
+Live Demo: http://myproject-env.eba-c3d2fnqu.eu-central-1.elasticbeanstalk.com/
 
 🏗️ Architecture
 Browser
