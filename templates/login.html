@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:#0a0a0a;color:#f0ece4;font-family:'DM Sans',sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center}
+    .box{border:1px solid #222;padding:3rem;width:100%;max-width:400px}
+    h2{font-family:'DM Mono',monospace;font-size:.85rem;letter-spacing:.25em;color:#e8c97d;text-transform:uppercase;margin-bottom:2rem}
+    .error{font-family:'DM Mono',monospace;font-size:.72rem;color:#c45c3a;margin-bottom:1rem}
+    input{width:100%;background:#111;border:1px solid #333;color:#f0ece4;padding:.85rem 1rem;font-family:'DM Mono',monospace;font-size:.85rem;margin-bottom:1rem;outline:none}
+    input:focus{border-color:#e8c97d}
+    button{width:100%;background:#e8c97d;color:#0a0a0a;border:none;padding:.85rem;font-family:'DM Mono',monospace;font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;transition:background .3s}
+    button:hover{background:#f0ece4}
+    .back{display:block;text-align:center;margin-top:1.5rem;font-family:'DM Mono',monospace;font-size:.65rem;letter-spacing:.15em;color:#5a5650;text-decoration:none;text-transform:uppercase}
+    .back:hover{color:#e8c97d}
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Admin Access</h2>
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        {% for msg in messages %}<p class="error">⚠ {{ msg }}</p>{% endfor %}
+      {% endif %}
+    {% endwith %}
+    <form method="POST">
+      <input type="password" name="password" placeholder="Enter password" autofocus required/>
+      <button type="submit">Login →</button>
+    </form>
+    <a href="/" class="back">← Back to portfolio</a>
+  </div>
+</body>
+</html>

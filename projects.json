@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio on Elastic Beanstalk",
+    "short": "Flask · EC2 · Nginx · S3",
+    "description": "Built and deployed this portfolio as a stateless Python Flask app on AWS Elastic Beanstalk. Configured gunicorn as WSGI server, nginx as reverse proxy, and managed app versions via S3.",
+    "tags": ["Python", "Flask", "Elastic Beanstalk", "EC2", "Nginx"],
+    "live_url": "",
+    "github_url": "https://github.com/Raghvendrayadav07",
+    "date": "May 2025"
+  },
+  {
+    "id": 2,
+    "title": "Static Website — S3 + CloudFront",
+    "short": "Amazon S3 · CloudFront · IAM · Frankfurt",
+    "description": "Hosted a static website on Amazon S3 with CloudFront CDN for global delivery and HTTPS. Set up bucket policies and solved real-world errors including policy conflicts and Git auth issues.",
+    "tags": ["Amazon S3", "CloudFront", "IAM"],
+    "live_url": "http://my-aws-website-raghvendra.s3-website.eu-central-1.amazonaws.com",
+    "github_url": "https://github.com/Raghvendrayadav07/aws-static-website",
+    "date": "Apr 2025"
+  },
+  {
+    "id": 3,
+    "title": "EC2 Web Server — Nginx",
+    "short": "EC2 · Security Groups · Ubuntu · SSH",
+    "description": "Provisioned an EC2 t2.micro instance, configured Security Groups for HTTP/SSH, and deployed Nginx via SSH. Documented setup with a full troubleshooting guide.",
+    "tags": ["EC2", "Nginx", "Linux", "SSH"],
+    "live_url": "",
+    "github_url": "https://github.com/Raghvendrayadav07/aws-ec2-nginx-website",
+    "date": "Mar 2025"
+  },
+  {
+    "id": 4,
+    "title": "Online Examination System",
+    "short": "Full-Stack · Team Project · Parul University",
+    "description": "Led a team of three to design and build an online exam platform for educational institutions, focusing on efficiency, accessibility, and security in conducting assessments.",
+    "tags": ["Full-Stack", "Team Lead"],
+    "live_url": "",
+    "github_url": "https://github.com/Raghvendrayadav07",
+    "date": "2023"
+  }
+]
