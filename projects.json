@@ -38,7 +38,7 @@
     "live_url": "",
     "github_url": "https://github.com/Raghvendrayadav07",
     "date": "2023"
-  }
+  },
   {
     "id": 5,
     "title": "NDVI & Vegetation Health Analysis — Sentinel-2",
@@ -58,5 +58,5 @@
     "live_url": "",
     "github_url": "",
     "date": "Jun 2026"
-  },
+  }
 ]
