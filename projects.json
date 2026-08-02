@@ -39,4 +39,24 @@
     "github_url": "https://github.com/Raghvendrayadav07",
     "date": "2023"
   }
+  {
+    "id": 5,
+    "title": "NDVI & Vegetation Health Analysis — Sentinel-2",
+    "short": "Google Earth Engine · QGIS · Remote Sensing",
+    "description": "Processed Sentinel-2 satellite imagery to compute NDVI and assess vegetation health across selected regions. Used Google Earth Engine and QGIS to generate raster outputs and interpret spatial patterns.",
+    "tags": ["Remote Sensing", "GIS", "Google Earth Engine", "QGIS"],
+    "live_url": "",
+    "github_url": "",
+    "date": "Jun 2026"
+  },
+  {
+    "id": 6,
+    "title": "LiDAR Analysis for Forest Structure",
+    "short": "QGIS · LAStools · SILVA",
+    "description": "Processed LiDAR point cloud data as part of the GIS in Forest Practice module at SGGW Warsaw to extract canopy height, tree density, and terrain models. Generated DEM, DSM, and CHM outputs using QGIS and LAStools.",
+    "tags": ["LiDAR", "GIS", "QGIS", "LAStools"],
+    "live_url": "",
+    "github_url": "",
+    "date": "Jun 2026"
+  },
 ]
